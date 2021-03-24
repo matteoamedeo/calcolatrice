@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color:whitesmoke;
+
+    }
+    button {
+        height: 50px;
+        width: 50px;
+        margin-top: 10px;
+    }
+
+    #keyboard {
+        margin-top: 100px;
+        background-color:whitesmoke;
+    }
+
+    #display {
+        width: 210px;
+        height: 50px;
+        background-color:whitesmoke;
+        padding-top: 25px;
+        font-size:x-large;
+        border-style:solid ;
+        border-width: 2px;
+        /* border-color:#4F4F4F; */
+        border-color: grey;
+
+        
+    }
+</style>
+
+<body>
+    <center>
+    
+
+        <div id="keyboard">
+            
+            <div id="display"></div>
+            <button id="" value="" onclick="">%</button>
+            <button id="" value="" onclick="">CE</button>
+            <button id="" value="" onclick="cancel()">C</button>
+            <button id="=" value="=" onclick="result()" onclick="result2()" >=</button><br>
+            <button id="1" value=1 onclick="push('1')">1</button>
+            <button id="2" value=2 onclick="push('2')">2</button>
+            <button id="3" value=3 onclick="push('3')">3</button>
+            <button class="operator" id="+" value=' ' onclick="push('+')">+</button><br>
+            <button id="4" value=4 onclick="push('4')">4</button>
+            <button id="5" value=5 onclick="push('5')">5</button>
+            <button id="6" value=6 onclick="push('6')">6</button>
+            <button class="operator" id="-" value="-" onclick="push('-')">-</button><br>
+            <button id="7" value=7 onclick="push('7')">7</button>
+            <button id="8" value=8 onclick="push('8')">8</button>
+            <button id="9" value=9 onclick="push('9')">9</button>
+            <button class="operator" id="*" value="*" onclick="push('*')">*</button><br>
+            <button id="+/-">+/-</button>
+            <button id="0" value=0 onclick="push('0')">0</button>
+            <button id="." value="." onclick="push('.')">,</button>
+            <button class="operator" id="/" value="/" onclick="push('/')">/</button><br>
+    </center>
+    </div>
+
+    <script src="lib3.js"></script>
+
+
+
+</body>
+
+</html>
